@@ -1,3 +1,6 @@
+# pip install pyinstaller
+
+# pyinstaller --noconfirm --onedir --console --hidden-import "C:\Users\hsantos\Documents\testes 202408.02\python\GRT_054\main_GRT_054.py"
 
 
 
@@ -252,7 +255,7 @@ for ia1 in range(1): #~~~~ VARIÁVEIS INTERNAS ~~~~~ dados pastas da automação
        
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         for i1 in range(1):#~~~~~~~~~~~~ pastas e arquivos no onedrive
-            
+
             pasta_Destino = aplicaConfig(caminho_arquivo_Config, 'configuracoes1','arquivo_destino')
 
             nomePasta1 = 'OP-GRT'
